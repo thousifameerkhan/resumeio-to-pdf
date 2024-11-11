@@ -1,5 +1,32 @@
 # Resume.io to PDF
 
+***
+Changes - Nov 24
+Author : Thousif Ameer Khan
+
+Modifed the Docker composer file. 
+The Dependencies during the installation were failing.
+I have corrected the env variables
+
+***
+
+How to Use it.
+By clicking the Download button, You will see the some content in the browser, 
+You have to save the Content by clicking ctrl+s and changing the extension as .pdf
+
+Important point : 
+The download is not immediate, You have to wait for few mins for the download to complete
+
+***
+Observation :
+The tool does not seem to work in the latest Google chrome.
+The problem faced is that if we try to save the contents on the webpage, the files takes some time to Download. Meanwhile the Google chrome browser is removing it.
+
+I have used Microsoft Edge and repeated the same process. it saved correctly.
+
+***
+
+
 Download your resume from [resume.io](https://resume.io) as a PDF file. 
 
 <div align="center"><a href="https://resumeio-to-pdf.fly.dev/"><img src="https://github.com/felipeall/resumeio-to-pdf/assets/20917430/b7edfda4-4768-4659-af68-561e1effe628" width="700" /></a></div>

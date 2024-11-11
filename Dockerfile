@@ -21,7 +21,8 @@ RUN /install.sh && rm /install.sh
 # Install dependencies
 WORKDIR /app
 COPY requirements.txt ./
-RUN /root/.cargo/bin/uv pip install --system --no-cache -r requirements.txt
+RUN  pip install --upgrade pip
+RUN  pip install  --no-cache -r requirements.txt
 COPY . ./
 
 # Run app
